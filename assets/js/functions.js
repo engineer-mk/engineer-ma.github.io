@@ -106,6 +106,9 @@ jQuery(document).ready(function ($) {
     $('#goToHome').click(function () {
         $('html,body').animate({scrollTop: $('#page-top').offset().top}, 1000);
     });
+    $('#goToAdmin').click(function () {
+
+    });
     $('.time-until').click(function () {
         updatePicUrl('page-top', 'contact')
     })
