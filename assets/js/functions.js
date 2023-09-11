@@ -107,7 +107,7 @@ jQuery(document).ready(function ($) {
         $('html,body').animate({scrollTop: $('#page-top').offset().top}, 1000);
     });
     $('#goToAdmin').click(function () {
-
+        window.open('http://159.75.29.64:8004','_blank')
     });
     $('.time-until').click(function () {
         updatePicUrl('page-top', 'contact')
