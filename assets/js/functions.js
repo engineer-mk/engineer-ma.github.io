@@ -228,7 +228,7 @@ $(window).load(function () {
  * @param el2
  */
 function updatePicUrl(el, el2) {
-    fetch("http://159.75.29.64:8001/m-x/openApi/randomPic?number=2")
+    fetch("http://159.75.29.64:8001/m-x/api/pic/openApi/randomPic?number=2")
         .then(res => res.json())
         .then(data => {
             var sectionElement = document.getElementById(el);
